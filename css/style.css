@@ -1,0 +1,177 @@
+header {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper span {
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px; 
+  list-style: none;
+}
+
+#hero {
+  height: 600px;
+  background-image: url(../images/hands-typing.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(70%);
+  text-align: center;
+  color: #fff;
+}
+
+#hero h1 {
+  max-width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 15px;
+}
+
+#about-me {
+display: flex;
+justify-content: center;
+
+}
+
+#about-me .wrapper {
+display: flex;
+align-items: center;
+}
+
+#about-me .wrapper h2 {
+  text-align: left;
+}
+
+
+#about-me .wrapper div {
+  flex: 1;
+}
+
+#about-me .wrapper img {
+  flex: 1;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+#service .wrapper {
+  flex-direction: column;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+#services {
+  background-color: #fafafa;
+}
+
+#services article {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h2 {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#services .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: solid black;
+}
+
+
+#work .wrapper {
+text-align: center;
+}
+
+.art {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: stretch;
+}
+
+.art img {
+  width: 100%;
+}
+
+
+.art img:first-child {
+  grid-column: span 3;
+  grid-row: 1/2;
+}
+
+
+.art img:nth-child(2) {
+  grid-column: span 3;
+  grid-row: 1/2;
+}
+
+
+.art img:nth-child(3) {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+
+.art img:nth-child(4) {
+  grid-column: span 2;
+  grid-row: 2/3;
+}
+
+
+.art img:nth-child(5) {
+  grid-column: span 2;
+  grid-row: 2/3;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
